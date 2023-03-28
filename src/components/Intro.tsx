@@ -48,7 +48,7 @@ export function Intro() {
                     exit="hide"
                     variants={introHeaderVariants}>
                     <h1 className="text-center text-5xl md:text-start md:text-8xl">
-                        Mel's Travel Blog
+                        Mels Travel Blog
                     </h1>
                     <p className={clsx('text-3xl font-light', text.className)}>
                         Welcome aboard!
