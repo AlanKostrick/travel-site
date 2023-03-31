@@ -10,10 +10,10 @@ import winter from 'images/winter.jpg';
 export function ImageGallery() {
     return (
         <div className="grid w-full max-w-screen-xl grid-cols-2 grid-rows-2 gap-2 p-4 lg:grid-cols-4 lg:grid-rows-1">
-            <GalleryImage src={maldives} alt="dog1" />
-            <GalleryImage src={cruise} alt="dog2" />
-            <GalleryImage src={kayak} alt="dog3" />
-            <GalleryImage src={winter} alt="dog4" />
+            <GalleryImage src={maldives} alt="" />
+            <GalleryImage src={cruise} alt="" />
+            <GalleryImage src={kayak} alt="" />
+            <GalleryImage src={winter} alt="" />
         </div>
     );
 }
