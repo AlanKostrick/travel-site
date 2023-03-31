@@ -17,8 +17,6 @@ export function NavBar() {
         <div className="text-md flex h-24 w-full items-center justify-between px-12">
             <Logo />
             <nav className="hidden gap-8 md:flex">
-                <NavItem>Home</NavItem>
-                <NavItem>Services</NavItem>
                 <NavItem>About</NavItem>
                 <NavItem>Contact</NavItem>
                 <NavItem>Blog</NavItem>

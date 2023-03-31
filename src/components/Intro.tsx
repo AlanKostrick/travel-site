@@ -47,10 +47,10 @@ export function Intro() {
                     whileInView="show"
                     exit="hide"
                     variants={introHeaderVariants}>
-                    <h1 className="text-center text-5xl md:text-start md:text-7xl">
+                    <h1 className="text-center text-5xl md:text-start md:text-8xl">
                         Mels Travel Blog
                     </h1>
-                    <p className={clsx('text-3xl font-light', text.className)}>
+                    <p className={clsx('text-4xl', text.className)}>
                         Welcome aboard!
                     </p>
                 </motion.header>

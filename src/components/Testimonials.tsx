@@ -67,14 +67,14 @@ export function Testimonials() {
     useMotionValueEvent(parallax, 'change', (v) => console.log(v));
     return (
         <div
-            className="flex min-h-[150vh] w-full flex-col items-center justify-center gap-12 bg-secondary px-4 py-24 md:p-24"
+            className="flex min-h-[100vh] w-full flex-col items-center justify-center gap-12 bg-secondary px-4 py-24 md:p-24"
             ref={target}>
             <h2
                 className={clsx(
                     'text-center text-4xl text-white md:w-1/2 md:text-7xl',
                     title.className
                 )}>
-                What Our Happy Clients Say
+                What Inteletravel Travel Agents Have to Say
             </h2>
             <div className="flex grow flex-wrap items-center items-center justify-center justify-center gap-24">
                 <Testimonial className="md:mb-24" parallax={parallax}>

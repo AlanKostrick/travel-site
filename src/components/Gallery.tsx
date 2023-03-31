@@ -16,7 +16,7 @@ export function Gallery() {
                     'text-center text-4xl md:text-8xl',
                     title.className
                 )}>
-                At your service
+                Your Access
             </h1>
             <div className="flex flex-col gap-12 text-3xl md:flex-row">
                 <div className="flex flex-row items-center justify-center gap-5">
@@ -36,6 +36,8 @@ export function Gallery() {
                 Book an Appointment
             </button>
             <ImageGallery />
+            <div className="text-2xl px-8 gap-5">You will have unlimited customer service and support at your fingertips, access to ON DEMAND agent training modules by Inteletravel and worldwide suppliers, and over $100k worth of sales and marketing tools online. </div>
+            <div className="text-2xl px-8 gap-5 my-20">Flights, hotels/resorts, cruises, train tickets, sports and entertainment, travel insurance, US travel, international travel, villas and vacation rentals, transfers, excursions and activities, and MORE  </div>
         </div>
     );
 }
