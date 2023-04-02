@@ -40,7 +40,7 @@ export function About() {
                 In less than 15 minutes, you will be fully operational in the travel space by partnering up with Plannet Marketing and Inteletravel.
                 You are now an Online Travel Business Owner. LETS GET STARTED!  </div>
             <button className="flex flex-row gap-12 rounded-full bg-primary px-8 py-4 text-2xl text-white">
-                Become an Independent Travel Agent
+                Sign Up Now
             </button>
             <div className="text-2xl px-8 gap-5">Take control. You have the flexibility to work from anywhere at anytime. No quotas!
                 This is an online marketing opportunity for your travel business. You will have the flexibility to work from your favorite travel destinations.

@@ -13,7 +13,7 @@ export function Logo({ className }: { className?: string }) {
             <div className="text-4xl">
                 <FaUmbrellaBeach />
             </div>
-            MelsLogo
+            Wanderlust Travel
         </div>
     );
 }

@@ -2,7 +2,6 @@ import { Variants, motion } from 'framer-motion';
 import { text, title } from '../fonts';
 
 import Image from 'next/image';
-import { NavBar } from '@/components/NavBar';
 import clsx from 'clsx';
 import tropical from '../images/tropical.jpg';
 
@@ -36,7 +35,6 @@ const introPictureVariants: Variants = {
 export function Intro() {
     return (
         <div className="flex h-[40rem] w-full flex-col items-center justify-center overflow-x-clip bg-secondary text-light sm:h-[100vh]">
-            <NavBar />
             <main className="relative flex w-full grow items-start justify-center py-12 px-4 md:items-center lg:justify-start md:px-12">
                 <motion.header
                     className={clsx(
@@ -48,7 +46,7 @@ export function Intro() {
                     exit="hide"
                     variants={introHeaderVariants}>
                     <h1 className="text-center text-5xl md:text-start md:text-8xl">
-                        Mels Travel Blog
+                        Wanderlust Travel
                     </h1>
                     <p className={clsx('text-4xl', text.className)}>
                         Welcome aboard!

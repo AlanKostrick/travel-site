@@ -22,6 +22,9 @@ module.exports = {
                 four: '#D48960',
                 light: '#E6E9E5',
             },
+            zIndex: {
+                auto: 99999
+            }
         },
     },
     plugins: [require('@tailwindcss/typography')],
