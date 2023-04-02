@@ -67,7 +67,7 @@ export function Testimonials() {
     useMotionValueEvent(parallax, 'change', (v) => console.log(v));
     return (
         <div
-            className="flex min-h-[100vh] w-full flex-col items-center justify-center gap-12 bg-secondary px-4 py-24 md:p-24"
+            className="flex min-h-[100vh] w-full flex-col items-center justify-center gap-12 bg-secondary px-4 py-24 md:p-24 m-20"
             ref={target}>
             <h2
                 className={clsx(

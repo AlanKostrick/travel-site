@@ -14,11 +14,12 @@ function NavItem({ children }: WithChildrenProps) {
 
 export function NavBar() {
     return (
-        <div className="text-md flex h-24 w-full items-center justify-between px-12">
+        <div className="sticky top-0 z-auto bg-primary text-md flex h-24 w-full items-center justify-between px-4 text-light text-2xl">
             <Logo />
-            <nav className="hidden gap-8 md:flex">
+            <nav className="hidden gap-4 md:flex">
                 <NavItem>About</NavItem>
                 <NavItem>Contact</NavItem>
+                <NavItem>Sign Up</NavItem>
                 <NavItem>Blog</NavItem>
             </nav>
         </div>
