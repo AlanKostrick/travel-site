@@ -13,16 +13,16 @@ const TEMPLATE_ID = 'template_sa39z0a';
 const USER_ID = '29XvquoW5u9Xrs4Ah';
 
 const ContactForm = () => {
-    const handleOnSubmit = (e: { preventDefault: () => void; target: { reset: () => void; }; }) => {
+    const handleOnSubmit = (e: any) => {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
-            .then((result: { text: any; }) => {
+            .then((result) => {
                 console.log(result.text);
                 Swal.fire({
                     icon: 'success',
                     title: 'Message Sent Successfully'
                 })
-            }, (error: { text: any; }) => {
+            }, (error) => {
                 console.log(error.text);
                 Swal.fire({
                     icon: 'error',
